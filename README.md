@@ -3,7 +3,7 @@ My 1st project about distribute system storage.
 
 ## Mô tả bài toán – giải pháp
 
-1. Mô tả bài toán
+1. Mô tả bài toán:
 	Xây dựng ứng dụng phân tán MyStorage. Ứng dụng cho phép chia sẻ và đồng bộ dữ liệu.
 	Ứng dụng xây dựng theo mô hình Client/Server. Trong đó:
 		- Mỗi Client có một thư mục đồng bộ. Dữ liệu trong thư mục đó được đưa lên Server. Người dùng có thể thêm/xóa các thư mục/ tệp tin trong thư mục đồng bộ đó.
@@ -13,8 +13,8 @@ My 1st project about distribute system storage.
 		- Client tự động download và upload dữ liệu.
 
 
-2. Giải pháp
-	a. RMI (Remote Method Invocation)
+2. Giải pháp:
+	a. RMI (Remote Method Invocation).
 		RMI giúp cho việc truyền thông giữa các đối tượng phân tán được dễ dàng hơn.
 		RMI là API bậc cao được xây dựng dựa trên lập trình Socket.
 		Hệ thống RMI cho phép một đối tượng chạy trên một máy ảo Java này có thể kích hoạt một phương thức của một đối tượng đang chạy trên một máy ảo Java khác. Đối tượng có phương thức được gọi từ xa gọi là các đối tượng ở xa (Remote Object).
@@ -23,7 +23,7 @@ My 1st project about distribute system storage.
 		Chương trình Client lấy một tham chiếu đến một hoặc nhiều Remote Object trên Server và kích hoạt các phương thức từ xa thông qua các tham chiếu.
 		Một chương trình Client có thể kích hoạt các phương thức ở xa trên một hay nhiều Server - sự thực thi của chương trình được trải rộng trên nhiều máy tính.
 
-	b. NTP (Network Time Protocol)
+	b. NTP (Network Time Protocol).
 		Server thực hiện việc đồng bộ hóa dữ liệu giữa các Client dựa vào 2 yếu tố là :
 			- Kích thước của file dữ liệu
 			- Thời gian thay đổi file dữ liệu
