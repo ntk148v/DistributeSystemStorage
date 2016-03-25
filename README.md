@@ -34,7 +34,9 @@ My 1st project about distribute system storage.
 
 ## Hướng dẫn cài đặt
 	1. Import 2 Project vao trong Eclipse/Netbean.
-	2. ... Will be update later!
+	2. Cài đặt ntp: Ubuntu/Debian based: sudo apt-get install ntp 
+	3. Set Policy: Right Click --> Run Configurations... --> Arguments --> VM Arguments --> Thêm -Djava.security.policy=security.policy
+	4. Run!
 
 ## Tài liệu tham khảo
 
